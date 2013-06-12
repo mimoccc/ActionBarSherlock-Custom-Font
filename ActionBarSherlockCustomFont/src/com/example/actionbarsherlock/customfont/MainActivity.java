@@ -15,8 +15,7 @@ public class MainActivity extends SherlockActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		
+
 		ActionBar abs = getSupportActionBar();
 		abs.setDisplayShowTitleEnabled(true);
 		abs.setDisplayUseLogoEnabled(false);
@@ -35,6 +34,4 @@ public class MainActivity extends SherlockActivity {
 		Typeface face = Typeface.createFromAsset(getAssets(),"fonts/museo.ttf");
 		mAppName.setTypeface(face);
 	}
-
-	
 }
